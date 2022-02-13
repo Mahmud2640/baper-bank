@@ -7,9 +7,9 @@ document.getElementById("submit").addEventListener("click", function () {
   const userPassword = passwordField.value;
 
   // condition set
-  if (userEmail == "mdmahmud484@gmail.com" && userPassword == "mahmud2640") {
+  if (userEmail == "mybank@gmail.com" && userPassword == "1234") {
     window.location.href = "banking-site.html";
   } else {
-    console.log("type valid email");
+    alert("Please input your email and password!!!");
   }
 });
